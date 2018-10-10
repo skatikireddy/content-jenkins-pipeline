@@ -17,7 +17,7 @@ pipeline {
 	}
 	post {
 	  success {
-	    archiveArtifacts artifcats: 'rectangle.jar', fingerprint: true
+	    archiveArtifacts artifacts: 'rectangle.jar', fingerprint: true
 	  }
 	}
 
